@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="gold" />
+    
+    <title>Temperature Cnvrtr</title>
+    <!-- linking the external styling sheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   <div id="content-container">
+    
+      <h2 id="cont-hdg">Temperature Converter</h2> 
+   <!--  making container -->
+      <div id="calc-container">
+
+        <div class="content-divi">
+          <div class="div-head">From</div>
+          <div class="inputs-container">
+           
+            <input
+              type="number" class="input-field inputs"  name="input"   id="input-box" placeholder="0" required/>
+          
+            <div class="dropdown-container">
+              <select class="dropdown inputs" id="input-dropdown">
+                <option value="Celcius" selected>Celcius</option>
+                <option value="Farenheit">Farenheit</option>
+               
+              </select>
+            </div>
+          </div>
+        </div>
+      
+        <div class="content-divi">
+          <div class="div-head">To</div>
+          <div class="inputs-container">
+            
+            <input
+              type="text"  class="input-field input"  name="result" id="result-box" placeholder="0"  disabled
+            />
+           
+            <div class="dropdown-container">
+              <select class="dropdown inputs" id="result-dropdown">
+                <!-- dropdown menu list -->
+                <option value="Farenheit">Farenheit</option>
+                <option value="Celcius">Celcius</option>
+            
+              </select>
+            </div>
+          </div>
+        </div>
+       <!-- asking user to convert temperature -->
+    <button id="convert-btn" class="inputs" onclick="converter()">
+          Convert
+        </button>
+      </div>
+    </div>
+   
+    <!-- for calculation adding js file -->
+    <script src="./script.js"></script>
+  </body>
+</html>

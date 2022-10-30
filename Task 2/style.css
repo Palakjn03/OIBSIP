@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nb{
+    display:flex;
+    align-items:center;
+    background-color: black;
+    justify-content: center;
+    position:sticky;
+    top:0;
+
+}
+.nb ul{
+    list-style:none;
+    display:flex;
+    margin: 18px 0px;
+
+}
+.nb ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+
+}
+.nb ul li a{
+    text-decoration: none;
+    color:azure;
+    padding: 7px 23px;
+    transition: all .5s ease;
+}
+.nb ul li a:hover{
+    background-color: aliceblue;
+    color:red;
+
+}
+/* adding style to home */
+#home{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height:800px;
+     
+
+ }
+#home::before{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    background-color:red;
+    
+     height:800px;
+    width:100%;
+    z-index: -1;
+    
+}
+.main{
+   display:flex; 
+   flex-direction: column;
+   
+   align-items: center;
+   position:absolute;
+   top:30%;
+
+
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    margin: 12px 37px;
+
+}
+.btn{
+    padding: 15px 36px;
+    background-color: transparent;
+    border:2px solid white;
+    color:antiquewhite;
+    outline:none;
+    transition: .5s ease;
+
+}
+.btn:hover{
+    color:brown;
+    background-color: antiquewhite ;
+    font-weight: bold ;
+}
+.pics h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 12px 17px;
+    text-align: justify ;
+    
+}
+#about{
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    padding:20px;
+    margin-bottom:50px;
+
+    
+
+}
+#about h2{
+    align-items: center;
+}
+
+#pics{
+    display:flex;
+}
+#pics img{
+    width:565px;
+    height:400px; 
+}
+#introduction{
+    display:flex;
+    flex-direction:column;
+    text-align: justify;
+    padding:10px;
+}
+#introduction h2{
+    font-size: 2rem;
+    margin-bottom:20px;
+}
+#portfolio{
+
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+    align-items: center;
+    padding:20px;
+    font-size: 30px;
+
+}
+
+.pic{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+}
+.pic img{
+     width:350px;
+     margin:10px;
+     height:240px;
+      
+}
+#Services{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+   
+    text-align: center;
+
+
+}
+.row{
+    display: flex;
+  flex-wrap: wrap; 
+    box-sizing:content-box;
+    justify-items: normal;    
+    justify-content:flex-start;
+
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 440px;
+    height:250px;
+    border:1px solid black;
+    margin:10px;
+    align-items: center;
+    text-align: justify;
+    padding: 9px;
+    border-radius: 14px;
+    background: linear-gradient(to top,rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition:all .8s;
+    display:inline-block;
+
+}
+.box:hover{
+  background-position: left bottom;
+  color:white;  
+  border: none;
+   
+
+}
+.headings{
+    font-size: 44px ;
+}
+
+.heading{
+    text-align: center;
+   font-size: 40px;
+
+}
+/* Contact sec */
+#contact{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+    padding: 22px;
+}
+.hdng{
+    text-align: center;
+    font-size: 40px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.inputs{
+    padding:11px;
+    margin:16px;
+    width:33%;
+    
+}
+#message{
+    width:37%;
+    padding: 11px;
+    margin:15px;
+    outline: none;
+}
+    #send{
+        padding: 11px;
+        width:10%;
+        margin:38px;
+
+
+    }
+    #send:hover{
+        box-shadow: 0 0 9px white;
+    }

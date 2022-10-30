@@ -1,0 +1,228 @@
+*{
+
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+.home{
+    height:100vh;
+    background-color:#e0cfcc;
+    padding:30px;
+}
+.logo{
+    text-decoration: none;
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+    color: #5a4441;
+    font-size:35px;
+    font-weight: 498;
+}
+.description {
+    padding: 100px 20px;
+    position:absolute;
+    width:699px;
+    z-index:999;
+}
+.description h1{
+    font-family:'Times New Roman', Times, serif ;
+    font-size:60px;
+    font-weight:709;
+    color:#5a4441;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+}
+.description p{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:300;
+    color:#5a4441;
+    width:490px;
+}
+.home img{
+    width:310px;
+    height:450px;
+    position: absolute;
+    top:100px;
+    left: 55%;
+     
+}
+.s1{
+    position:absolute;
+    top:40px;
+    right:40px; 
+}
+.si li{
+    display:inline;
+   
+}
+.si li a{
+    color:#5a4441;
+}
+.about{
+    height: 90vh;
+    display:grid;
+    grid-template-columns:  1fr 1fr ;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    width:299px;
+    height:450px;
+    border: 2px solid brown;
+    position:relative; 
+
+}
+.img1 img{
+    width:299px;
+    height:450px;;
+    position:absolute;
+    bottom:40px;
+    left:40px;
+}
+.txt{
+    padding-top:150px;
+    padding-right:50px;
+}
+.title{
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color:#5a4441;
+    letter-spacing:2px;
+    margin-bottom: 3px;
+    text-align:center; 
+}
+.txt p{
+    color: #5a4441;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+    letter-spacing:1px;
+}
+.p1{
+    padding:0 30px;
+    height:99vh;
+
+}
+.p1 h1{font-size:40px;
+    color: #5a4441;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+}
+.container{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 270px;
+  /* grid-gap:20px;*/
+   padding-top:30px;
+
+
+}
+.product img {
+    height:280px;
+     width:auto;
+     
+     
+}
+.product p {
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color:#5a4441;
+}
+.product h3{
+    font-size:35px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    color:#5a4441;
+}
+.p2{
+    padding:0 30px;
+    height:99vh;
+    }
+    .p2 h1{
+        font-size:40px;
+    color: #5a4441;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+    }
+    
+    .cont{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 270px;
+        grid-gap:0 px;
+        padding-top: 30px;
+    }
+    .pi img{
+        height:280px;
+        width:auto;
+        
+    }
+    .pi  p{
+        font-size:20px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 100;
+        color:#5a4441;
+    }
+
+    .p3{
+        padding:0 30px;
+        height:99vh;
+        margin-top:5px;
+    }
+    .p3 h1{
+
+
+        font-size:40px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 100;
+        color:#5a4441;
+    }
+    .con{display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 270px;
+        grid-gap:0 px;
+       padding-top: 20px;
+
+    }
+    .q img{
+        height:280px;
+        width:auto;
+        margin-bottom: 5px;
+    }
+
+    .q  p{
+        font-size:20px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 100;
+        color:#5a4441;
+    }
+
+    footer{
+        padding:50px;
+        background-color: #dacbc8;
+        display:flex;
+        justify-content: space-between;
+
+
+    }
+     .contact{
+        text-align: center;
+     }
+     .contact h3{
+        font-size: 21px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        color:#5a4441;
+     }
+     .contact p{
+        font-size:15px ;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        color:brown;
+     }
+    
